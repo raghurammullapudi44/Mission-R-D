@@ -1,0 +1,12 @@
+1.given a string,replace %20 in each of the spaces
+		ex:kony    labs
+		o/p:kony%20%20%@0labs
+2.given an array,in which only sub part of it is in reverse,correct it
+	ex-12365478
+	o/p-2345678
+3.given an rotated array,and an number search the number in that array and retrieves its position in that array
+	ex-45123,n=2
+	o/p-3
+4.given an string remove all continous spaces with only one %20
+		ex:kony    labs
+		o/p:kony%20labs

@@ -1,0 +1,682 @@
+Script started on Saturday 13 September 2014 08:59:38 AM IST
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ 
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$  clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ cleard onsept13th[K[K[K[K[K[K[K[K[K[K[K[K[Kgcc ge[Kreatinarr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ .a/[K[K/a.out
+5
+3
+1
+2
+3
+4
+5
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc greatinarr.c
+greatinarr.c: In function ‘main’:
+greatinarr.c:9:2: warning: assignment makes integer from pointer without a cast [enabled by default]
+ x=fun(a,n,n1);
+  ^
+greatinarr.c: In function ‘fun’:
+greatinarr.c:24:1: warning: return makes pointer from integer without a cast [enabled by default]
+ return count;
+ ^
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc greatinarr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc greatinarr.c[9P./a.outgcc greatinarr.c[9P./a.out
+5
+4
+123  
+2
+. 3
+4
+5
+it is:1]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc greatinarr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc greatinarr.cclear[K./a.out
+10
+3
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+great is:7]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc greatinarr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc greatinarr.c[9P./a.out
+4
+5
+1
+2
+3
+6
+great is:1]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc greatinarr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc greatinarr.c[9P./a.out
+10
+3
+1
+2
+3
+4
+great is:7]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc greatinarr.c
+greatinarr.c: In function ‘main’:
+greatinarr.c:9:7: error: ‘i’ undeclared (first use in this function)
+ while(i<n)
+       ^
+greatinarr.c:9:7: note: each undeclared identifier is reported only once for each function it appears in
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc greatinarr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc greatinarr.cclear[K./a.out
+10
+4
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+^Z
+[1]+  Stopped                 ./a.out
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc greatinarr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc greatinarr.c[9P./a.out
+4 10
+4
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+great is:0]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc greatinarr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc greatinarr.c[9P./a.out
+10
+4
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+great is:6]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc greatinarr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc greatinarr.cclear[K./a.outgcc greatinarr.c[9P./a.out[2Pclear./a.out
+8
+4
+-1
+-2
+3
+4
+5
+6
+7
+8
+great is:4
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ 9[Kgcc o[K01s.cs01s.co01s.cr01s.ct01s.c
+gcc: error: sort01s.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc sort01s.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc sort01s.c[6P./a.outgcc greatinarr.c[9P./a.out
+enter the size of the array:8
+enter 8 elements:0 1 0 1 1 00  0 1
+the resultant array is:0 0 0 0 1 1 1 1 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c
+mularr.c:1:1: error: stray ‘##’ in program
+ ##include<stdio.h>
+ ^
+mularr.c:1:10: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+ ##include<stdio.h>
+          ^
+In file included from mularr.c:2:0:
+/usr/include/malloc.h:71:29: error: unknown type name ‘ptrdiff_t’
+ extern void *(*__morecore) (ptrdiff_t __size);
+                             ^
+/usr/include/malloc.h:74:34: error: unknown type name ‘ptrdiff_t’
+ extern void *__default_morecore (ptrdiff_t __size)
+                                  ^
+mularr.c: In function ‘main’:
+mularr.c:10:5: error: ‘i’ undeclared (first use in this function)
+ for(i=0;i<n;i++)
+     ^
+mularr.c:10:5: note: each undeclared identifier is reported only once for each function it appears in
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clera[K[Kar
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ cleargcc mularr.c
+mularr.c: In function ‘main’:
+mularr.c:10:5: error: ‘i’ undeclared (first use in this function)
+ for(i=0;i<n;i++)
+     ^
+mularr.c:10:5: note: each undeclared identifier is reported only once for each function it appears in
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[7Pcleargcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.out
+5
+1
+2
+3
+4
+5
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+4
+1
+2
+3
+4
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+1
+2
+3
+4
+5
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+1
+2
+3
+4
+5
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clera[K[Kar
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.out
+^[[A    0
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.out[2Pclear./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+0
+1
+2
+3
+4
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+0
+0
+1
+2
+3
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+1
+2
+3
+4
+5
+00000]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+0
+1
+2
+3
+4
+0 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[7Pclear./a.out
+5
+0
+1
+2
+3
+4
+0 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+1
+2
+3
+4
+5
+0 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+1
+2
+3
+4
+5
+0 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+1
+2
+3
+4
+5
+0 0 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+0
+1
+2
+3
+4
+1 0 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ 5[K./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+0
+0
+1
+2
+3
+2 0 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc mularr.c[5P./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[7Pclear./a.out
+5
+1
+2
+2 3
+4
+5
+0 00 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+0
+1
+2
+3
+4
+1 0 0 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+0
+0
+1
+2
+3
+2 0 0 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+1
+0
+2
+3
+4
+1 1 0 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+1
+2
+3
+4
+5
+0 0 120 7200 288000 8640000 207360000 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c[5P./a.outgcc mularr.c[5P./a.outgcc mularr.c[5P./a.outgcc mularr.c[5P./a.outgcc mularr.c[7Pclear./a.out[2Pclear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[7Pclear./a.out
+5
+1
+2
+3
+4
+5
+0 0 5 5 5 5 4 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+1
+2
+3
+4
+5
+0 0 120 60 40 30 24 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+0
+1
+2
+3
+4
+1 0 24 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc mularr.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc mularr.c[5P./a.out
+5
+1
+0
+0
+2
+3
+2 1 0 0 0 0 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ i[Kgcc indexrem.c
+gcc: error: indexrem.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[9Pcleargcc indexrem.c
+gcc: error: indexrem.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[9Pcleargcc indexrem.c
+gcc: error: indexrem.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc inexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.out
+10
+1
+3
+1
+2
+3
+4
+5
+6
+7
+8
+120960 40320 120960 60480 40320 30240 24192 20160 17280 15120 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ .clear[K[K[K[K[K[Kclera[K[Kar
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc inexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc inexrem.c[8Pclear./a.out
+10
+1
+4
+1
+2
+3
+4
+5
+6
+7
+8
+161280 40320 161280 80640 53760 40320 32256 26880 23040 20160 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc inexrem.cdexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:10
+enter the values:1
+3
+1
+2
+3
+4
+5
+6
+7
+8
+enter the indexes:3
+6
+the resultant array is:1 3 5 6 7 8 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:5
+enter the values:1
+2
+3
+4
+5
+enter the indexes:2
+3
+a.out: malloc.c:2372: sysmalloc: Assertion `(old_top == (((mbinptr) (((char *) &((av)->bins[((1) - 1) * 2])) - __builtin_offsetof (struct malloc_chunk, fd)))) && old_size == 0) || ((unsigned long) (old_size) >= (unsigned long)((((__builtin_offsetof (struct malloc_chunk, fd_nextsize))+((2 *(sizeof(size_t))) - 1)) & ~((2 *(sizeof(size_t))) - 1))) && ((old_top)->size & 0x1) && ((unsigned long) old_end & pagemask) == 0)' failed.
+Aborted (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[9Pclear./a.out
+enter the size of the array:10
+enter the values:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+enter the indexes:1
+5
+the resultant array is:6 7 8 9 10 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:1
+enter the values:2
+enter the indexes:1
+3
+not possible]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:10
+enter the values:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+enter the indexes:-10
+5
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc indexrem.c
+indexrem.c: In function ‘main’:
+indexrem.c:27:2: error: too few arguments to function ‘fun’
+  b=fun(a,n,I,J);
+  ^
+indexrem.c:3:7: note: declared here
+ int * fun(int *,int,int,int,int);
+       ^
+indexrem.c:31:35: error: expected ‘)’ before ‘;’ token
+  a=(int *)realloc(a,sizeof(int)*n1;
+                                   ^
+indexrem.c:39:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[9Pclear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ cleargcc indexrem.c
+indexrem.c: In function ‘main’:
+indexrem.c:31:35: error: expected ‘)’ before ‘;’ token
+  a=(int *)realloc(a,sizeof(int)*n1;
+                                   ^
+indexrem.c:39:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[9Pcleargcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[9Pclear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ cleargcc indexrem.c[9Pcleargcc indexrem.c[9Pclear./a.out
+enter the size of the array:10
+enter the values:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+enter the indexes:1
+9
+the resultant array is:10 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.out[2Pcleargcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:10
+enter the values:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+enter the indexes:-10
+5
+the resultant array is:]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:10
+enter the values:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+enter the indexes:-10
+5
+the resultant array is:6 7 8 9 10 0 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[9Pclear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ cleargcc indexrem.c[9Pclear./a.out
+enter the size of the array:10
+enter the values:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+enter the indexes:-10
+5
+the resultant array is:6 7 8 9 10 ]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.out[2Pcleargcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:10
+enter the values:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+enter the indexes:5
+15
+*** Error in `./a.out': double free or corruption (fasttop): 0x0857c008 ***
+Aborted (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:10
+enter the values:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+enter the indexes:-10
+-20
+*** Error in `./a.out': double free or corruption (fasttop): 0x08d0e008 ***
+Aborted (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[9Pclear./a.out
+enter the size of the array:10
+enter the values:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+enter the indexes:1
+6
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc indexrem.c
+indexrem.c: In function ‘main’:
+indexrem.c:19:10: error: expected expression before ‘)’ token
+ if((J<0||) && (I>n))
+          ^
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:10
+enter the values:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+enter the indexes:1
+6
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:
+4
+enter the values:1
+2
+3
+4
+enter the indexes:2
+4
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:4
+enter the values:-10
+2
+5
+6
+enter the indexes:-10
+2
+*** Error in `./a.out': double free or corruption (fasttop): 0x088c7008 ***
+Aborted (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear
+[H[2J]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ clear./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[9Pclear./a.out
+enter the size of the array:10
+enter the values:1
+2
+3
+4
+5
+6
+78
+8
+8
+10
+enter the indexes:2
+6
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:4
+enter the values:1
+2
+3
+4
+enter the indexes:2
+3
+Segmentation fault (core dumped)
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc indexrem.c
+]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ gcc indexrem.c[7P./a.out
+enter the size of the array:4
+enter the values:1
+2
+3
+4
+enter the indexes:-10
+10
+the resultant array is:]0;mullapudi@mullapudi-Inspiron-N5110: ~/1-myne/missionRnD/5-onsept13thmullapudi@mullapudi-Inspiron-N5110:~/1-myne/missionRnD/5-onsept13th$ ./a.outgcc indexrem.c
+indexrem.c: In function ‘main’:
+indexrem.c:3

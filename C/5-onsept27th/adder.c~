@@ -1,0 +1,483 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+char * add(char *,char *);
+
+char * adder(char *,char *,int,int);
+
+char * adder1(char *,char *,int,int);
+
+char * adder2(char *,char *,int,int);
+
+char * neg(char *,int);
+
+int nonzerocount(char *,int);
+
+int flaw(char *,char *,int n1);
+
+char * malloc_char(char *);
+
+int a_cmp(char *,char *);
+
+void testcases();
+
+struct test
+{
+	char input1[20];
+	char input2[20];
+	char output[20];
+}testDB[10]={{{"1234"},{"5678"},{"6912"}},
+		{{"0001"},{"1234"},{"1235"}},
+		{{"0001"},{"12"},{"13"}},
+		{{"-1234"},{"-9678"},{"-10912"}},
+		{{"1772"},{"-1773"},{"-0001"}},
+		{{"000-1"},{"-12"},{"-13"}},
+		{{"5678"},{"-1234"},{"4444"}},
+		{{"-5678"},{"1234"},{"-4444"}},
+		{{"-17783"},{"17883"},{"00100"}},
+		{{"-10000"},{"1"},{"0-9999"}}};
+
+
+char * malloc_char(char ip[])
+{
+	int i;
+	char *a;
+	a=(char *)malloc(sizeof(char)*1);
+	for(i=0;ip[i]!='\0';i++)
+	{
+		a=(char *)realloc(a,sizeof(int)*(i+1));
+		a[i]=ip[i];
+	}
+	a[i]='\0';
+	return a;
+}
+
+
+int a_cmp(char a[],char b[])
+{
+	if(strcmp(a,b)==0)
+		return 0;
+	else
+		return 1;	
+}
+
+char * add(char a[],char b[])
+{
+	int n1,n2,n3,n4,i,j,k;
+	char *d,*e;
+	
+		for(n1=0;a[n1]!='\0';n1++)
+		for(n2=0;b[n2]!='\0';n2++)
+
+
+		n3=nonzerocount(a,n1);
+		n4=nonzerocount(b,n2);
+printf("%s %s %d %d ",a,b,n1,n2);
+
+		d=(char *)malloc(sizeof(char)*(n1-n3));
+		e=(char *)malloc(sizeof(char)*(n2-n4));
+
+		
+
+		if(n1==n3)
+			for(k=0,j=0;k<n1;k++)
+				d[j++]=a[k];
+		else
+			for(k=n3,j=0;k<n1;k++)
+				d[j++]=a[k];
+				
+		d[j]='\0';
+
+		if(n2==n4)
+			for(k=0,j=0;k<n2;k++)
+				e[j++]=b[k];
+		else
+			for(k=n4,j=0;k<n2;k++)
+				e[j++]=b[k];
+				
+		e[j]='\0';
+
+		if(((n1-n3))>=(n2-n4))
+			return (adder(d,e,n1-n3,n2-n4));
+
+		else
+		{
+			if(e[0]=='-' && ((n1-n3)+1)==(n2-n4) && d[0]!=e[1] && d[0]!='-')
+				return (adder(d,e,n1-n3,n2-n4));
+			else
+				return (adder(e,d,n2-n4,n1-n3));
+		}
+}
+
+char * adder(char a[],char b[],int n1,int n2)
+{
+	int i,flag1=0,flag2=0,count,j=0,k=0;
+	char *c,*d,*e;
+
+	c=(char *)malloc(sizeof(char)*n1);
+	d=(char *)malloc(sizeof(char)*n1);
+	e=(char *)malloc(sizeof(char)*n2);
+
+	//printf("%s %s",a,b);
+
+	for(i=0;i<n1;i++)
+	{
+		if(a[i]=='-')
+		{
+			flag1++;
+		}
+		else
+			d[j++]=a[i];
+	}
+	d[j]='\0';
+	for(i=0;i<n2;i++)
+	{
+		if(b[i]=='-')
+		{
+			flag2++;
+		}
+		else
+			e[k++]=b[i];
+	}
+	e[k]='\0';
+
+	if(flag1==flag2)
+	{
+		if(flag1==1)
+		{
+			c=adder1(d,e,j,k);
+			c=neg(c,n1+1);
+		}
+		else
+			c=adder1(d,e,j,k);
+	return c;
+	}
+
+
+        if(flag1==0 && flag2==1)
+	{
+				
+
+		if(d[0]>e[0])
+			c=adder2(d,e,j,k);
+		else
+		{
+			if(n1==n2)
+			{
+
+				if(d[0]<e[0])
+				{
+					c=adder2(e,d,k,j);
+					c=neg(c,k+1);
+				}
+				else
+				{
+					count=flaw(d,e,j);
+					if(count==0)
+						c=adder2(d,e,j,k);
+					else
+					{
+						c=adder2(e,d,k,j);
+						c=neg(c,k+1);
+					}
+				}
+				
+			}
+			else
+				c=adder2(d,e,j,k);
+		}
+	return c;
+	}
+
+	
+	if(flag1==1 && flag2==0)
+	{
+		
+		if(d[0]>e[0])
+		{
+			c=adder2(d,e,j,k);
+			c=neg(c,j+1);
+		}
+		else
+		{
+			
+			if(n1==n2)
+			{
+
+				if(d[0]<e[0])
+					c=adder2(e,d,k,j);
+				else
+				{
+					count=flaw(d,e,j);
+					if(count==0)
+					{
+						c=adder2(d,e,j,k);
+						c=neg(c,j+1);
+					}
+					else
+						c=adder2(e,d,k,j);
+				}
+				
+			}
+			else
+			{
+				c=adder2(d,e,j,k);
+				c=neg(c,j+1);
+			}
+				
+		}
+	return c;
+	}
+}
+
+// adder for both positive or negative
+
+char * adder1(char a[],char b[],int n1,int n2)
+{
+	int i=n1-1,j=n2-1,sum=0,cary=0,k;
+	char *c;
+	
+	//printf(" %s %s ",a,b);
+
+	if(((a[0]-'0')+(b[0]-'0'))>9)
+	{
+		k=n1+1;
+		c=(char *)malloc(sizeof(char)*k);
+		c[k--]='\0';
+	}
+	else
+	{
+		k=n1;
+		c=(char *)malloc(sizeof(char)*k);
+		c[k--]='\0';
+	}
+	
+	
+
+	while(i>=0)
+	{
+		if(cary==0)
+		{
+			if(j<0)
+				sum=a[i]-'0';
+			else
+				sum=(a[i]-'0')+(b[j]-'0');
+		}
+		else
+		{
+			if(j<0)
+				sum=a[i]-'0'+cary;
+			else
+				sum=(a[i]-'0')+(b[j]-'0')+cary;
+		}
+
+		if(sum>9)
+		{
+
+			if(n1==n2)
+			{
+				if(j==0)
+				{
+					c[k--]=(sum%10)+'0';
+					c[k--]=(sum/10)+'0';
+				}
+					
+			}
+			if(i==0 && j<0)
+			{
+				c[k--]=(sum%10)+'0';
+				c[k--]=(sum/10)+'0';
+			}
+			
+			else
+			{
+				cary=sum/10;
+				c[k--]=(sum%10)+'0';
+
+			}	
+		}
+		else
+		{
+			c[k--]=sum+'0';
+			cary=0;
+		}
+	
+		i--;
+		j--;
+	}
+	return c;
+}
+
+
+// for one positive and another negative
+
+char * adder2(char a[],char b[],int n1,int n2)
+{
+	int i=n1-1,j=n2-1,borrow=0,k=n1;
+	char *c;
+
+	//printf(" %s %s %d %d ",a,b,n1,n2);
+
+	c=(char *)malloc(sizeof(char)*k);
+	
+	c[k--]='\0';
+
+	while(i>=0)
+	{
+		if(j<0)
+		{
+			if(borrow==0)
+				c[k--]=a[i];
+			else
+			{
+				if((a[i]-1)<0)
+					c[k--]=9+'0';
+				else
+				{
+					c[k--]=((a[i]-'0')-1)+'0';
+					borrow=0;
+				}
+			}
+		}
+		else
+		{
+			if(borrow==0)
+			{
+				if((a[i]-'0')>=(b[j]-'0'))
+				{
+					c[k--]=((a[i]-'0')-(b[j]-'0'))+'0';
+					//printf("%c ",c[k+1]);
+					borrow=0;
+				}
+			
+				else
+				{
+					c[k--]=((a[i]-'0')+(10-(b[j]-'0')))+'0';
+					borrow++;
+				}
+			}
+			else
+			{
+				if(((a[i]-'0')-1)>=(b[j]-'0'))
+				{
+					c[k--]=((a[i]-'0')-1-(b[j]-'0'))+'0';
+					borrow=0;
+				}
+				else
+				{
+					c[k--]=(10-((b[j]-'0')+(a[i]-'0'))-1)+'0';
+					borrow++;
+				}
+			}
+		}
+		i--;
+		j--;
+	}
+	return c;
+}
+
+char * neg(char c[],int n1)
+{
+	int i,j=0;
+	char *e=(char *)malloc(sizeof(char)*n1);	
+
+	for(i=0;i<n1;i++)
+	{
+		if(i==0)
+			e[j++]='-';
+		else
+			e[j++]=c[i-1];
+	}
+	e[j]='\0';
+return e;
+}
+
+int nonzerocount(char a[],int n1)
+{
+	int i,count=0;
+	
+	for(i=0;i<n1;i++)
+	{
+		if(a[i]=='0')
+			count++;
+		else
+			break;
+	}
+return count;
+}
+
+
+int flaw(char a[],char b[],int n1)
+{
+	int i,count=0;
+	for(i=0;i<n1-1;i++)
+	{
+		if(a[i]==b[i])
+		{
+			if(a[i+1]<=b[i+1])
+				count=1;
+			else
+			{
+				count=0;
+				break;
+			}
+		}
+		else
+			break;
+	}
+return count;
+}
+
+void testcases()
+{
+	int i,check,n1,n2,n3,n4,j,k;
+	char *a,*b,*op,*c;
+
+	for(i=0;i<10;i++)
+	{
+		a=malloc_char(testDB[i].input1);
+		b=malloc_char(testDB[i].input2);
+		
+		c=add(a,b);	
+
+		//printf("%s ",c);	
+				
+		op=malloc_char(testDB[i].output);
+		check=a_cmp(c,op);				
+		
+		if(check==0)
+			printf("passed\n");
+		else 
+			printf("failed\n");
+	
+	}
+
+}
+
+
+int main()
+{
+	testcases();
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

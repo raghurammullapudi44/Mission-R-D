@@ -1,0 +1,106 @@
+#include<stdio.h>
+#include<malloc.h>
+
+int findmedian(int *,int *,int);
+
+int median(int *,int);
+
+int max(int,int);
+
+int min(int,int);
+
+int main()
+{
+	int *a,*b,n1,n2,i;
+        int m;
+        
+	printf("enter the sizes of n1 and n2:");
+		scanf("%d %d",&n1,&n2);
+
+	a=(int *)malloc(sizeof(int)*n1);
+	b=(int *)malloc(sizeof(int)*n2);
+
+	printf("enter %d elements:",n1);
+		for(i=0;i<n1;i++)
+			scanf("%d",&a[i]);
+
+	printf("enter %d elements:",n2);
+		for(i=0;i<n2;i++)
+			scanf("%d",&b[i]);
+
+	if(n1==n2)
+	{
+		m=findmedian(a,b,n1);
+		printf("median is:%d\n",m);
+	}
+	else
+		printf("not possible for un-equal arrays\n");
+
+	return 0;
+}
+
+int findmedian(int a[],int b[],int n)
+{
+	int m1,m2;
+	
+	if(n==1)
+		return ((a[0]+b[0])/2);
+
+	if(n==2)
+		return ((max(a[0],b[0])+min(a[1],b[1]))/2);
+
+	if(n>2)
+	{
+		m1=median(a,n);
+		m2=median(b,n);
+
+		if(m1==m2)
+			return m1;
+
+		if(m1>m2)
+		{
+			if(n%2==0)
+				return (findmedian(b+n/2-1,a,n-n/2+1));
+			else
+				return (findmedian(b+n/2,a,n-n/2));
+		}
+
+		if(m1<m2)
+		{
+			if(n%2==0)
+				return (findmedian(a+n/2-1,b,n-n/2+1));
+			else
+				return (findmedian(a+n/2,b,n-n/2));
+		}
+	}
+
+}
+
+
+int max(int a,int b)
+{
+	return ((a>b)?a:b);
+}
+ 
+int min(int a, int b)
+{
+	return ((a>b)?b:a);
+}
+
+
+int median(int a[],int n)
+{
+   	if(n%2==0)
+		return (a[n/2]+a[n/2-1])/2;
+    	else
+		return a[n/2];
+}
+
+
+
+
+
+
+
+
+
